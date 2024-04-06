@@ -1,0 +1,5 @@
+router ospf {{host.ospf.pid}}
+router-id {{host.ospf.rid}}
+{% for net in host.ospf.networks %}
+network {{net.ip}} {{net.wildcard}} area {{net.area}}
+{% endfor %}
