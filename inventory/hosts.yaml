@@ -1,0 +1,11 @@
+router1:
+  hostname: 192.168.31.49
+
+router2:
+  hostname: 192.168.31.149
+
+router3:
+  hostname: 192.168.31.99
+
+router4:
+  hostname: 192.168.31.249
